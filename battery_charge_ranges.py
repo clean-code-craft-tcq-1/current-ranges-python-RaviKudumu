@@ -7,4 +7,3 @@ def charge_ranges(charge_rates):
         range.append(charge_rate)
     ranges.append(range)
     return ranges
-
