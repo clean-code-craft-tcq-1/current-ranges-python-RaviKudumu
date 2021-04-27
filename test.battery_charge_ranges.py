@@ -1,7 +1,6 @@
 import unittest
 import battery_charge_ranges
 
-
 class test_battery_charge_ranges(unittest.TestCase):
     def test_charge_ranges_no(self):
         ranges = battery_charge_ranges.charge_ranges([1,2,3])
